@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 30px;
+  font-size: 18px;
+  padding: 10px 20px; 
+  width: 200px;
+  height: 10px;
+  
+}
+
+
+.menu {
+  margin-bottom: 30px;
+}
+
+.menu button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #80c5f3;; 
+  border: 1px solid #ebc9c9;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.menu button:hover {
+  background-color: #eccfcf;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap:50px;
+  justify-content: center;
+}
+.Imagedisplay {
+  width: 300px;
+  height: 300px;
+}
+
+
+.Imagedisplay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
